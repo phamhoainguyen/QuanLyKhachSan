@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{077E5737-9454-4999-9E01-E86A870DB09B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>QLKS.My.MyApplication</StartupObject>
+    <RootNamespace>QLKS</RootNamespace>
+    <AssemblyName>QLKS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\WIND\Desktop\new5\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>QLKS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>QLKS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>788C17BF540F31148ECC8ED671117B534E11A56C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>QLKS_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel1">
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office15\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller.vb" />
+    <Compile Include="ClassDatabase.vb" />
+    <Compile Include="FormMenu\FormMenuReport.Designer.vb">
+      <DependentUpon>FormMenuReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenu\FormMenuReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu\FormMenuSearch.Designer.vb">
+      <DependentUpon>FormMenuSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenu\FormMenuSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu\FormMenuSetting.Designer.vb">
+      <DependentUpon>FormMenuSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenu\FormMenuSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu\FormMenuStore.Designer.vb">
+      <DependentUpon>FormMenuStore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenu\FormMenuStore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWork\FormBill.Designer.vb">
+      <DependentUpon>FormBill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormWork\FormBill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWork\FormReport.Designer.vb">
+      <DependentUpon>FormReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormWork\FormReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWork\FormSearch.Designer.vb">
+      <DependentUpon>FormSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormWork\FormSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRoomManagement.designer.vb">
+      <DependentUpon>FormRoomManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormRoomManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.vb">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.vb">
+      <DependentUpon>FormMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRoomTypeManagement.Designer.vb">
+      <DependentUpon>FormRoomTypeManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormRoomTypeManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWork\FormAccount.Designer.vb">
+      <DependentUpon>FormAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormWork\FormAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWork\FormEditRule.Designer.vb">
+      <DependentUpon>FormEditRule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormWork\FormEditRule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWork\FormRoomRentBill.Designer.vb">
+      <DependentUpon>FormRoomRentBill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormWork\FormRoomRentBill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWork\FormSoftwareInfo.Designer.vb">
+      <DependentUpon>FormSoftwareInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormWork\FormSoftwareInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormMenu\FormMenuReport.resx">
+      <DependentUpon>FormMenuReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu\FormMenuSearch.resx">
+      <DependentUpon>FormMenuSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu\FormMenuSetting.resx">
+      <DependentUpon>FormMenuSetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu\FormMenuStore.resx">
+      <DependentUpon>FormMenuStore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWork\FormBill.resx">
+      <DependentUpon>FormBill.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWork\FormReport.resx">
+      <DependentUpon>FormReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWork\FormSearch.resx">
+      <DependentUpon>FormSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRoomManagement.resx">
+      <DependentUpon>FormRoomManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRoomTypeManagement.resx">
+      <DependentUpon>FormRoomTypeManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWork\FormAccount.resx">
+      <DependentUpon>FormAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWork\FormEditRule.resx">
+      <DependentUpon>FormEditRule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWork\FormRoomRentBill.resx">
+      <DependentUpon>FormRoomRentBill.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWork\FormSoftwareInfo.resx">
+      <DependentUpon>FormSoftwareInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database\database.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database\database_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>database.mdf</DependentUpon>
+    </Content>
+    <None Include="QLKS_TemporaryKey.pfx" />
+    <None Include="Resources\Images\Icon\hotelBlack.png" />
+    <None Include="Resources\Images\Icon\userBlack.png" />
+    <None Include="Resources\Images\Icon\addUserBlack.png" />
+    <Content Include="Resources\Images\icon.ico" />
+    <Content Include="Resources\Images\Icon\admin-panel-login.jpg" />
+    <Content Include="Resources\Images\Icon\exitWhite.png" />
+    <Content Include="Resources\Images\Background\admin-panel-login.jpg" />
+    <Content Include="Resources\Images\Background\BgImage.jpg" />
+    <None Include="Resources\Images\UITlogo.png" />
+    <None Include="Resources\Images\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

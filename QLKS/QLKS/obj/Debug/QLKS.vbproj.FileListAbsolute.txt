@@ -1,0 +1,64 @@
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\bin\Debug\QLKS.exe.config
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\bin\Debug\Database\database.mdf
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\bin\Debug\Database\database_log.ldf
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\bin\Debug\QLKS.exe
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\bin\Debug\QLKS.pdb
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\bin\Debug\QLKS.xml
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.FormMenuReport.resources
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.FormMenuSearch.resources
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.FormMenuSetting.resources
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.FormMenuStore.resources
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.FormRoomManagement.resources
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.FormLogin.resources
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.FormMain.resources
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.FormRoomTypeManagement.resources
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.FormAccount.resources
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.FormEditRule.resources
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.FormSoftwareInfo.resources
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.Resources.resources
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.vbproj.GenerateResource.Cache
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.exe
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.xml
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.pdb
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.vbprojResolveAssemblyReference.cache
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.FormRoomRentBill.resources
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.FormSearch.resources
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.FormReport.resources
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\bin\Debug\QLKS.exe.manifest
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\bin\Debug\QLKS.application
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.exe.manifest
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.application
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.vbproj.ResolveComReference.cache
+D:\STUDY\Courses\NMCNPM\QLKS\QLKS\obj\Debug\QLKS.FormBill.resources
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\bin\Debug\QLKS.exe.config
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.vbproj.ResolveComReference.cache
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.exe
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.xml
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.pdb
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.vbprojResolveAssemblyReference.cache
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.FormMenuReport.resources
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.FormMenuSearch.resources
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.FormMenuSetting.resources
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.FormMenuStore.resources
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.FormBill.resources
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.FormReport.resources
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.FormSearch.resources
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.FormRoomManagement.resources
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.FormLogin.resources
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.FormMain.resources
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.FormRoomTypeManagement.resources
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.FormAccount.resources
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.FormEditRule.resources
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.FormRoomRentBill.resources
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.FormSoftwareInfo.resources
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.Resources.resources
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.vbproj.GenerateResource.Cache
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\bin\Debug\Database\database.mdf
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\bin\Debug\Database\database_log.ldf
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\bin\Debug\QLKS.exe.manifest
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\bin\Debug\QLKS.application
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\bin\Debug\QLKS.exe
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\bin\Debug\QLKS.pdb
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\bin\Debug\QLKS.xml
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.exe.manifest
+D:\Hoai Nguyen\FinalProject\QLKS\QLKS\obj\Debug\QLKS.application
