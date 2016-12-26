@@ -93,7 +93,7 @@ Partial Class FormLogin
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "FormLogin"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Đăng nhập"
+        Me.Text = "Login"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

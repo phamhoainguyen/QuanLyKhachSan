@@ -37,7 +37,7 @@ Partial Class FormMenuStore
         Me.btnRoomManagement.Name = "btnRoomManagement"
         Me.btnRoomManagement.Size = New System.Drawing.Size(122, 40)
         Me.btnRoomManagement.TabIndex = 5
-        Me.btnRoomManagement.Text = "Lập danh mục phòng"
+        Me.btnRoomManagement.Text = "Create list rooms"
         Me.btnRoomManagement.UseVisualStyleBackColor = False
         '
         'btnManageRoomType
@@ -48,7 +48,7 @@ Partial Class FormMenuStore
         Me.btnManageRoomType.Name = "btnManageRoomType"
         Me.btnManageRoomType.Size = New System.Drawing.Size(122, 40)
         Me.btnManageRoomType.TabIndex = 6
-        Me.btnManageRoomType.Text = "Quản lý loại phòng"
+        Me.btnManageRoomType.Text = "Manage Room Type"
         Me.btnManageRoomType.UseVisualStyleBackColor = True
         '
         'btnRoomRentBill
@@ -59,7 +59,7 @@ Partial Class FormMenuStore
         Me.btnRoomRentBill.Name = "btnRoomRentBill"
         Me.btnRoomRentBill.Size = New System.Drawing.Size(122, 40)
         Me.btnRoomRentBill.TabIndex = 7
-        Me.btnRoomRentBill.Text = "Lập phiếu thuê phòng"
+        Me.btnRoomRentBill.Text = "Create rent bill"
         Me.btnRoomRentBill.UseVisualStyleBackColor = True
         '
         'FormMenuStore

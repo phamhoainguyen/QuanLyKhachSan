@@ -50,9 +50,9 @@ Partial Class FormRoomRentBill
         Me.Label4.ForeColor = System.Drawing.Color.OrangeRed
         Me.Label4.Location = New System.Drawing.Point(28, 104)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(122, 19)
+        Me.Label4.Size = New System.Drawing.Size(123, 19)
         Me.Label4.TabIndex = 3
-        Me.Label4.Text = "Tên khách hàng"
+        Me.Label4.Text = "Custumer Name"
         '
         'Label5
         '
@@ -60,9 +60,9 @@ Partial Class FormRoomRentBill
         Me.Label5.ForeColor = System.Drawing.Color.OrangeRed
         Me.Label5.Location = New System.Drawing.Point(417, 71)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(106, 19)
+        Me.Label5.Size = New System.Drawing.Size(66, 19)
         Me.Label5.TabIndex = 4
-        Me.Label5.Text = "Ngày kết thúc"
+        Me.Label5.Text = "End day"
         '
         'Label1
         '
@@ -70,9 +70,9 @@ Partial Class FormRoomRentBill
         Me.Label1.ForeColor = System.Drawing.Color.OrangeRed
         Me.Label1.Location = New System.Drawing.Point(28, 35)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(96, 19)
+        Me.Label1.Size = New System.Drawing.Size(97, 19)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Chọn phòng"
+        Me.Label1.Text = "Select Room"
         '
         'Label3
         '
@@ -80,9 +80,9 @@ Partial Class FormRoomRentBill
         Me.Label3.ForeColor = System.Drawing.Color.OrangeRed
         Me.Label3.Location = New System.Drawing.Point(28, 71)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(103, 19)
+        Me.Label3.Size = New System.Drawing.Size(78, 19)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Ngày bắt đầu"
+        Me.Label3.Text = "Begin day"
         '
         'GroupBox1
         '
@@ -137,21 +137,21 @@ Partial Class FormRoomRentBill
         '
         Me.Label9.AutoSize = True
         Me.Label9.ForeColor = System.Drawing.Color.OrangeRed
-        Me.Label9.Location = New System.Drawing.Point(457, 140)
+        Me.Label9.Location = New System.Drawing.Point(417, 140)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(57, 19)
+        Me.Label9.Size = New System.Drawing.Size(66, 19)
         Me.Label9.TabIndex = 20
-        Me.Label9.Text = "Địa chỉ"
+        Me.Label9.Text = "Address"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
         Me.Label8.ForeColor = System.Drawing.Color.OrangeRed
-        Me.Label8.Location = New System.Drawing.Point(461, 104)
+        Me.Label8.Location = New System.Drawing.Point(417, 104)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(53, 19)
+        Me.Label8.Size = New System.Drawing.Size(98, 19)
         Me.Label8.TabIndex = 19
-        Me.Label8.Text = "CMND"
+        Me.Label8.Text = "Identity card"
         '
         'Label7
         '
@@ -159,9 +159,9 @@ Partial Class FormRoomRentBill
         Me.Label7.ForeColor = System.Drawing.Color.OrangeRed
         Me.Label7.Location = New System.Drawing.Point(28, 140)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(124, 19)
+        Me.Label7.Size = New System.Drawing.Size(112, 19)
         Me.Label7.TabIndex = 18
-        Me.Label7.Text = "Loại khách hàng"
+        Me.Label7.Text = "Customer type"
         '
         'dtpEndDate
         '
@@ -196,7 +196,7 @@ Partial Class FormRoomRentBill
         Me.btnNewRoomRentBill.Name = "btnNewRoomRentBill"
         Me.btnNewRoomRentBill.Size = New System.Drawing.Size(120, 30)
         Me.btnNewRoomRentBill.TabIndex = 0
-        Me.btnNewRoomRentBill.Text = "Lập phiếu"
+        Me.btnNewRoomRentBill.Text = "Create "
         Me.btnNewRoomRentBill.UseVisualStyleBackColor = False
         '
         'txtCustomerName
@@ -234,9 +234,9 @@ Partial Class FormRoomRentBill
         Me.Label6.ForeColor = System.Drawing.Color.DodgerBlue
         Me.Label6.Location = New System.Drawing.Point(6, 6)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(185, 19)
+        Me.Label6.Size = New System.Drawing.Size(133, 19)
         Me.Label6.TabIndex = 13
-        Me.Label6.Text = "Lập phiếu thuê phòng"
+        Me.Label6.Text = "Create rent bill"
         '
         'FormRoomRentBill
         '

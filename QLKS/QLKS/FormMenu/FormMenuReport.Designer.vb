@@ -33,7 +33,7 @@ Partial Class FormMenuReport
         Me.btnMonthReport.Name = "btnMonthReport"
         Me.btnMonthReport.Size = New System.Drawing.Size(122, 40)
         Me.btnMonthReport.TabIndex = 8
-        Me.btnMonthReport.Text = "Lập báo cáo tháng"
+        Me.btnMonthReport.Text = "Month Report"
         Me.btnMonthReport.UseVisualStyleBackColor = True
         '
         'FormMenuReport

@@ -22,8 +22,6 @@ Partial Class FormSearch
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -49,9 +47,9 @@ Partial Class FormSearch
         Me.Label2.ForeColor = System.Drawing.Color.OrangeRed
         Me.Label2.Location = New System.Drawing.Point(408, 66)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(86, 19)
+        Me.Label2.Size = New System.Drawing.Size(95, 19)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Tên Phòng"
+        Me.Label2.Text = "Room name"
         '
         'Label1
         '
@@ -59,19 +57,19 @@ Partial Class FormSearch
         Me.Label1.ForeColor = System.Drawing.Color.OrangeRed
         Me.Label1.Location = New System.Drawing.Point(408, 30)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(79, 19)
+        Me.Label1.Size = New System.Drawing.Size(73, 19)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Mã phòng"
+        Me.Label1.Text = "Room ID"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.ForeColor = System.Drawing.Color.OrangeRed
-        Me.Label3.Location = New System.Drawing.Point(30, 30)
+        Me.Label3.Location = New System.Drawing.Point(12, 30)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(88, 19)
+        Me.Label3.Size = New System.Drawing.Size(86, 19)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Loại phòng"
+        Me.Label3.Text = "Room type"
         '
         'GroupBox1
         '
@@ -109,7 +107,7 @@ Partial Class FormSearch
         Me.btnReset.Name = "btnReset"
         Me.btnReset.Size = New System.Drawing.Size(120, 30)
         Me.btnReset.TabIndex = 21
-        Me.btnReset.Text = "Nhập lại"
+        Me.btnReset.Text = "Reset"
         Me.btnReset.UseVisualStyleBackColor = False
         '
         'dtpEndDate
@@ -132,19 +130,19 @@ Partial Class FormSearch
         Me.Label4.ForeColor = System.Drawing.Color.OrangeRed
         Me.Label4.Location = New System.Drawing.Point(10, 105)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(106, 19)
+        Me.Label4.Size = New System.Drawing.Size(66, 19)
         Me.Label4.TabIndex = 18
-        Me.Label4.Text = "Ngày kết thúc"
+        Me.Label4.Text = "End day"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.ForeColor = System.Drawing.Color.OrangeRed
-        Me.Label7.Location = New System.Drawing.Point(15, 63)
+        Me.Label7.Location = New System.Drawing.Point(10, 63)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(103, 19)
+        Me.Label7.Size = New System.Drawing.Size(78, 19)
         Me.Label7.TabIndex = 17
-        Me.Label7.Text = "Ngày bắt đầu"
+        Me.Label7.Text = "Begin day"
         '
         'Label6
         '
@@ -153,9 +151,9 @@ Partial Class FormSearch
         Me.Label6.ForeColor = System.Drawing.Color.DodgerBlue
         Me.Label6.Location = New System.Drawing.Point(6, 2)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(126, 19)
+        Me.Label6.Size = New System.Drawing.Size(111, 19)
         Me.Label6.TabIndex = 14
-        Me.Label6.Text = "Tra cứu phòng"
+        Me.Label6.Text = "Search room"
         '
         'btnSearch
         '
@@ -168,7 +166,7 @@ Partial Class FormSearch
         Me.btnSearch.Name = "btnSearch"
         Me.btnSearch.Size = New System.Drawing.Size(120, 30)
         Me.btnSearch.TabIndex = 0
-        Me.btnSearch.Text = "Tìm"
+        Me.btnSearch.Text = "Search"
         Me.btnSearch.UseVisualStyleBackColor = False
         '
         'cbbRoomType
@@ -194,23 +192,7 @@ Partial Class FormSearch
         Me.dgvListRoomSearch.BackgroundColor = System.Drawing.Color.White
         Me.dgvListRoomSearch.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.dgvListRoomSearch.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle15.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle15.Font = New System.Drawing.Font("Tahoma", 11.0!)
-        DataGridViewCellStyle15.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvListRoomSearch.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle15
         Me.dgvListRoomSearch.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle16.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle16.Font = New System.Drawing.Font("Tahoma", 9.0!)
-        DataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvListRoomSearch.DefaultCellStyle = DataGridViewCellStyle16
         Me.dgvListRoomSearch.Location = New System.Drawing.Point(4, 154)
         Me.dgvListRoomSearch.MultiSelect = False
         Me.dgvListRoomSearch.Name = "dgvListRoomSearch"

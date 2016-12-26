@@ -35,7 +35,7 @@ Partial Class FormMenuSetting
         Me.btnSMEditRule.Name = "btnSMEditRule"
         Me.btnSMEditRule.Size = New System.Drawing.Size(122, 40)
         Me.btnSMEditRule.TabIndex = 2
-        Me.btnSMEditRule.Text = "Sửa quy định"
+        Me.btnSMEditRule.Text = "Change Policy"
         Me.btnSMEditRule.UseVisualStyleBackColor = True
         '
         'btnSMAccount
@@ -46,7 +46,7 @@ Partial Class FormMenuSetting
         Me.btnSMAccount.Name = "btnSMAccount"
         Me.btnSMAccount.Size = New System.Drawing.Size(122, 40)
         Me.btnSMAccount.TabIndex = 3
-        Me.btnSMAccount.Text = "Tài khoản"
+        Me.btnSMAccount.Text = "Account"
         Me.btnSMAccount.UseVisualStyleBackColor = True
         '
         'btnSMSoftwareInfo
@@ -59,7 +59,7 @@ Partial Class FormMenuSetting
         Me.btnSMSoftwareInfo.Name = "btnSMSoftwareInfo"
         Me.btnSMSoftwareInfo.Size = New System.Drawing.Size(122, 40)
         Me.btnSMSoftwareInfo.TabIndex = 4
-        Me.btnSMSoftwareInfo.Text = "Thông tin phần mềm"
+        Me.btnSMSoftwareInfo.Text = "Software Infomation"
         Me.btnSMSoftwareInfo.UseVisualStyleBackColor = False
         '
         'FormMenuSetting

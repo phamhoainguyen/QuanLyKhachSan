@@ -35,7 +35,7 @@ Partial Class FormMenuSearch
         Me.btnRoomSearch.Name = "btnRoomSearch"
         Me.btnRoomSearch.Size = New System.Drawing.Size(122, 40)
         Me.btnRoomSearch.TabIndex = 5
-        Me.btnRoomSearch.Text = "Tra cứu phòng"
+        Me.btnRoomSearch.Text = "Search Room"
         Me.btnRoomSearch.UseVisualStyleBackColor = False
         '
         'FormMenuSearch
