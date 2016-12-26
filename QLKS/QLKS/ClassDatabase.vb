@@ -20,7 +20,7 @@ Public Class Database
 #Region "Phương thức khởi tạo (Constructor)"
     Sub New()
         Dim path As String = Application.StartupPath
-        _connectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Hoai Nguyen\FinalProject\QLKS\QLKS\Databasedatabase.mdf;Integrated Security=True"
+        _connectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\database.mdf;Integrated Security=True"
     End Sub
 #End Region
 #Region "Phương thức gán tham số cho câu lệnh sql được đưa vào ( Sub AssignParameters)"

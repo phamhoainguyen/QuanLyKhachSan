@@ -9,11 +9,11 @@
             Dim sqlquery As String
             sqlquery = "SELECT User_Name,Name,UP.Position AS Position,Email,PhoneNumber FROM [USER] AS U,[USER_POSITION] AS UP WHERE U.Pos_ID = UP.Pos_ID"
             dgvListUser.DataSource = FormMain.db.FillDataset(sqlquery, CommandType.Text).Tables(0)
-            dgvListUser.Columns("User_Name").HeaderText = "Tên tài khoản"
-            dgvListUser.Columns("Name").HeaderText = "Tên nhân viên"
-            dgvListUser.Columns("Position").HeaderText = "Chức vụ"
-            dgvListUser.Columns("Email").HeaderText = "Thư điện tử"
-            dgvListUser.Columns("PhoneNumber").HeaderText = "Số điện thoại"
+            dgvListUser.Columns("User_Name").HeaderText = "User Name"
+            dgvListUser.Columns("Name").HeaderText = "Staff Name"
+            dgvListUser.Columns("Position").HeaderText = "Position"
+            dgvListUser.Columns("Email").HeaderText = "Email"
+            dgvListUser.Columns("PhoneNumber").HeaderText = "Phone Number"
         Else
             lblAddUserNotify.Visible = True
         End If
@@ -70,6 +70,22 @@
         params(5) = New SqlClient.SqlParameter("@pos", SqlDbType.Int, 3)
         params(5).Value = position
         db.ExecuteNonQuery(insertQuery, CommandType.Text, params)
-        MsgBox("Thêm nhân viên thành công", MsgBoxStyle.Information, FormMain.controller.msg.msgTitleNotify)
+        MsgBox("Add staff successful", MsgBoxStyle.Information, FormMain.controller.msg.msgTitleNotify)
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub txtUserName_Click(sender As Object, e As EventArgs) Handles txtUserName.Click
+
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub txtEmail_Click(sender As Object, e As EventArgs) Handles txtEmail.Click
+
     End Sub
 End Class

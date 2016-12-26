@@ -37,6 +37,7 @@ Partial Class FormAccount
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.pnAddUser = New System.Windows.Forms.Panel()
+        Me.cbbStaffPosition = New System.Windows.Forms.ComboBox()
         Me.lblAddUserNotify = New System.Windows.Forms.Label()
         Me.btnResetInput = New System.Windows.Forms.Button()
         Me.btnAddUser = New System.Windows.Forms.Button()
@@ -54,7 +55,6 @@ Partial Class FormAccount
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.dgvListUser = New System.Windows.Forms.DataGridView()
-        Me.cbbStaffPosition = New System.Windows.Forms.ComboBox()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnAddUser.SuspendLayout()
@@ -103,7 +103,7 @@ Partial Class FormAccount
         Me.btnLogout.Name = "btnLogout"
         Me.btnLogout.Size = New System.Drawing.Size(91, 26)
         Me.btnLogout.TabIndex = 11
-        Me.btnLogout.Text = "Đăng xuất"
+        Me.btnLogout.Text = "Log out"
         Me.btnLogout.UseVisualStyleBackColor = False
         '
         'txtPhoneNumber
@@ -111,18 +111,18 @@ Partial Class FormAccount
         Me.txtPhoneNumber.AutoSize = True
         Me.txtPhoneNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.txtPhoneNumber.ForeColor = System.Drawing.Color.Coral
-        Me.txtPhoneNumber.Location = New System.Drawing.Point(412, 58)
+        Me.txtPhoneNumber.Location = New System.Drawing.Point(432, 57)
         Me.txtPhoneNumber.Name = "txtPhoneNumber"
-        Me.txtPhoneNumber.Size = New System.Drawing.Size(34, 15)
+        Me.txtPhoneNumber.Size = New System.Drawing.Size(103, 15)
         Me.txtPhoneNumber.TabIndex = 10
-        Me.txtPhoneNumber.Text = "SĐT"
+        Me.txtPhoneNumber.Text = "Phone Number"
         '
         'txtEmail
         '
         Me.txtEmail.AutoSize = True
         Me.txtEmail.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.txtEmail.ForeColor = System.Drawing.Color.Coral
-        Me.txtEmail.Location = New System.Drawing.Point(411, 35)
+        Me.txtEmail.Location = New System.Drawing.Point(432, 34)
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.Size = New System.Drawing.Size(44, 15)
         Me.txtEmail.TabIndex = 9
@@ -135,9 +135,9 @@ Partial Class FormAccount
         Me.txtPosition.ForeColor = System.Drawing.Color.Coral
         Me.txtPosition.Location = New System.Drawing.Point(134, 80)
         Me.txtPosition.Name = "txtPosition"
-        Me.txtPosition.Size = New System.Drawing.Size(57, 15)
+        Me.txtPosition.Size = New System.Drawing.Size(59, 15)
         Me.txtPosition.TabIndex = 8
-        Me.txtPosition.Text = "Chức vụ"
+        Me.txtPosition.Text = "Position"
         '
         'txtFullName
         '
@@ -146,9 +146,9 @@ Partial Class FormAccount
         Me.txtFullName.ForeColor = System.Drawing.Color.Coral
         Me.txtFullName.Location = New System.Drawing.Point(133, 57)
         Me.txtFullName.Name = "txtFullName"
-        Me.txtFullName.Size = New System.Drawing.Size(53, 15)
+        Me.txtFullName.Size = New System.Drawing.Size(78, 15)
         Me.txtFullName.TabIndex = 7
-        Me.txtFullName.Text = "Tên NV"
+        Me.txtFullName.Text = "Staff Name"
         '
         'txtUserName
         '
@@ -157,9 +157,9 @@ Partial Class FormAccount
         Me.txtUserName.ForeColor = System.Drawing.Color.Coral
         Me.txtUserName.Location = New System.Drawing.Point(133, 34)
         Me.txtUserName.Name = "txtUserName"
-        Me.txtUserName.Size = New System.Drawing.Size(106, 16)
+        Me.txtUserName.Size = New System.Drawing.Size(86, 16)
         Me.txtUserName.TabIndex = 6
-        Me.txtUserName.Text = "Tên tài khoản"
+        Me.txtUserName.Text = "User Name"
         '
         'Label6
         '
@@ -168,9 +168,9 @@ Partial Class FormAccount
         Me.Label6.ForeColor = System.Drawing.Color.Coral
         Me.Label6.Location = New System.Drawing.Point(325, 57)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(89, 16)
+        Me.Label6.Size = New System.Drawing.Size(101, 16)
         Me.Label6.TabIndex = 5
-        Me.Label6.Text = "Số điện thoại:"
+        Me.Label6.Text = "Phone Number:"
         '
         'Label5
         '
@@ -190,9 +190,9 @@ Partial Class FormAccount
         Me.Label4.ForeColor = System.Drawing.Color.Coral
         Me.Label4.Location = New System.Drawing.Point(35, 79)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(58, 16)
+        Me.Label4.Size = New System.Drawing.Size(56, 16)
         Me.Label4.TabIndex = 3
-        Me.Label4.Text = "Chức vụ:"
+        Me.Label4.Text = "Position"
         '
         'Label3
         '
@@ -201,9 +201,9 @@ Partial Class FormAccount
         Me.Label3.ForeColor = System.Drawing.Color.Coral
         Me.Label3.Location = New System.Drawing.Point(35, 57)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(95, 16)
+        Me.Label3.Size = New System.Drawing.Size(77, 16)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Tên nhân viên:"
+        Me.Label3.Text = "Staff Name:"
         '
         'Label2
         '
@@ -212,9 +212,9 @@ Partial Class FormAccount
         Me.Label2.ForeColor = System.Drawing.Color.Coral
         Me.Label2.Location = New System.Drawing.Point(35, 34)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(92, 16)
+        Me.Label2.Size = New System.Drawing.Size(24, 16)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Tên tài khoản:"
+        Me.Label2.Text = "ID:"
         '
         'Label1
         '
@@ -223,9 +223,9 @@ Partial Class FormAccount
         Me.Label1.ForeColor = System.Drawing.SystemColors.MenuHighlight
         Me.Label1.Location = New System.Drawing.Point(34, 10)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(169, 19)
+        Me.Label1.Size = New System.Drawing.Size(159, 19)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Thông tin tài khoản"
+        Me.Label1.Text = "Accout Infomation"
         '
         'pnAddUser
         '
@@ -252,14 +252,22 @@ Partial Class FormAccount
         Me.pnAddUser.Size = New System.Drawing.Size(763, 185)
         Me.pnAddUser.TabIndex = 1
         '
+        'cbbStaffPosition
+        '
+        Me.cbbStaffPosition.FormattingEnabled = True
+        Me.cbbStaffPosition.Location = New System.Drawing.Point(417, 44)
+        Me.cbbStaffPosition.Name = "cbbStaffPosition"
+        Me.cbbStaffPosition.Size = New System.Drawing.Size(221, 21)
+        Me.cbbStaffPosition.TabIndex = 16
+        '
         'lblAddUserNotify
         '
         Me.lblAddUserNotify.AutoSize = True
         Me.lblAddUserNotify.Location = New System.Drawing.Point(194, 14)
         Me.lblAddUserNotify.Name = "lblAddUserNotify"
-        Me.lblAddUserNotify.Size = New System.Drawing.Size(366, 13)
+        Me.lblAddUserNotify.Size = New System.Drawing.Size(332, 13)
         Me.lblAddUserNotify.TabIndex = 15
-        Me.lblAddUserNotify.Text = "Bạn phải là quản trị viên, giám đốc hoặc quản lý để sử dụng chức năng này"
+        Me.lblAddUserNotify.Text = "You must be an administrator, director or manager to use this function"
         Me.lblAddUserNotify.Visible = False
         '
         'btnResetInput
@@ -273,7 +281,7 @@ Partial Class FormAccount
         Me.btnResetInput.Name = "btnResetInput"
         Me.btnResetInput.Size = New System.Drawing.Size(91, 33)
         Me.btnResetInput.TabIndex = 14
-        Me.btnResetInput.Text = "Nhập lại"
+        Me.btnResetInput.Text = "Reset"
         Me.btnResetInput.UseVisualStyleBackColor = False
         '
         'btnAddUser
@@ -287,7 +295,7 @@ Partial Class FormAccount
         Me.btnAddUser.Name = "btnAddUser"
         Me.btnAddUser.Size = New System.Drawing.Size(91, 30)
         Me.btnAddUser.TabIndex = 13
-        Me.btnAddUser.Text = "Thêm NV"
+        Me.btnAddUser.Text = "Add Staff"
         Me.btnAddUser.UseVisualStyleBackColor = False
         '
         'Label13
@@ -296,9 +304,9 @@ Partial Class FormAccount
         Me.Label13.ForeColor = System.Drawing.Color.OrangeRed
         Me.Label13.Location = New System.Drawing.Point(325, 50)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(47, 13)
+        Me.Label13.Size = New System.Drawing.Size(44, 13)
         Me.Label13.TabIndex = 13
-        Me.Label13.Text = "Chức vụ"
+        Me.Label13.Text = "Position"
         '
         'Label12
         '
@@ -306,9 +314,9 @@ Partial Class FormAccount
         Me.Label12.ForeColor = System.Drawing.Color.OrangeRed
         Me.Label12.Location = New System.Drawing.Point(323, 106)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(70, 13)
+        Me.Label12.Size = New System.Drawing.Size(78, 13)
         Me.Label12.TabIndex = 12
-        Me.Label12.Text = "Số điện thoại"
+        Me.Label12.Text = "Phone Number"
         '
         'Label11
         '
@@ -326,9 +334,9 @@ Partial Class FormAccount
         Me.Label10.ForeColor = System.Drawing.Color.OrangeRed
         Me.Label10.Location = New System.Drawing.Point(54, 106)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(76, 13)
+        Me.Label10.Size = New System.Drawing.Size(60, 13)
         Me.Label10.TabIndex = 10
-        Me.Label10.Text = "Tên nhân viên"
+        Me.Label10.Text = "Name Staff"
         '
         'Label9
         '
@@ -336,9 +344,9 @@ Partial Class FormAccount
         Me.Label9.ForeColor = System.Drawing.Color.OrangeRed
         Me.Label9.Location = New System.Drawing.Point(57, 76)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(52, 13)
+        Me.Label9.Size = New System.Drawing.Size(53, 13)
         Me.Label9.TabIndex = 9
-        Me.Label9.Text = "Mật khẩu"
+        Me.Label9.Text = "Password"
         '
         'Label8
         '
@@ -346,20 +354,20 @@ Partial Class FormAccount
         Me.Label8.ForeColor = System.Drawing.Color.OrangeRed
         Me.Label8.Location = New System.Drawing.Point(54, 47)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(55, 13)
+        Me.Label8.Size = New System.Drawing.Size(47, 13)
         Me.Label8.TabIndex = 8
-        Me.Label8.Text = "Tài khoản"
+        Me.Label8.Text = "Account"
         '
         'txtStaffNumber
         '
-        Me.txtStaffNumber.Location = New System.Drawing.Point(399, 99)
+        Me.txtStaffNumber.Location = New System.Drawing.Point(417, 103)
         Me.txtStaffNumber.Name = "txtStaffNumber"
         Me.txtStaffNumber.Size = New System.Drawing.Size(221, 20)
         Me.txtStaffNumber.TabIndex = 7
         '
         'txtStaffEmail
         '
-        Me.txtStaffEmail.Location = New System.Drawing.Point(399, 73)
+        Me.txtStaffEmail.Location = New System.Drawing.Point(417, 73)
         Me.txtStaffEmail.Name = "txtStaffEmail"
         Me.txtStaffEmail.Size = New System.Drawing.Size(221, 20)
         Me.txtStaffEmail.TabIndex = 6
@@ -403,9 +411,9 @@ Partial Class FormAccount
         Me.Label7.ForeColor = System.Drawing.Color.DodgerBlue
         Me.Label7.Location = New System.Drawing.Point(33, 10)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(157, 19)
+        Me.Label7.Size = New System.Drawing.Size(134, 19)
         Me.Label7.TabIndex = 0
-        Me.Label7.Text = "Tạo tài khoản mới"
+        Me.Label7.Text = "Create Account"
         '
         'dgvListUser
         '
@@ -419,14 +427,6 @@ Partial Class FormAccount
         Me.dgvListUser.Size = New System.Drawing.Size(575, 144)
         Me.dgvListUser.TabIndex = 2
         Me.dgvListUser.Visible = False
-        '
-        'cbbStaffPosition
-        '
-        Me.cbbStaffPosition.FormattingEnabled = True
-        Me.cbbStaffPosition.Location = New System.Drawing.Point(399, 46)
-        Me.cbbStaffPosition.Name = "cbbStaffPosition"
-        Me.cbbStaffPosition.Size = New System.Drawing.Size(221, 21)
-        Me.cbbStaffPosition.TabIndex = 16
         '
         'FormAccount
         '

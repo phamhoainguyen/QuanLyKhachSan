@@ -48,9 +48,9 @@ Partial Class FormRoomManagement
         Me.Label1.ForeColor = System.Drawing.Color.OrangeRed
         Me.Label1.Location = New System.Drawing.Point(30, 29)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(79, 19)
+        Me.Label1.Size = New System.Drawing.Size(73, 19)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Mã phòng"
+        Me.Label1.Text = "Room ID"
         '
         'Label2
         '
@@ -58,9 +58,9 @@ Partial Class FormRoomManagement
         Me.Label2.ForeColor = System.Drawing.Color.OrangeRed
         Me.Label2.Location = New System.Drawing.Point(30, 73)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(86, 19)
+        Me.Label2.Size = New System.Drawing.Size(97, 19)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Tên Phòng"
+        Me.Label2.Text = "Room Name"
         '
         'Label3
         '
@@ -68,9 +68,9 @@ Partial Class FormRoomManagement
         Me.Label3.ForeColor = System.Drawing.Color.OrangeRed
         Me.Label3.Location = New System.Drawing.Point(399, 27)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(88, 19)
+        Me.Label3.Size = New System.Drawing.Size(91, 19)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Loại phòng"
+        Me.Label3.Text = "Room Type"
         '
         'Label4
         '
@@ -78,9 +78,9 @@ Partial Class FormRoomManagement
         Me.Label4.ForeColor = System.Drawing.Color.OrangeRed
         Me.Label4.Location = New System.Drawing.Point(30, 120)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(63, 19)
+        Me.Label4.Size = New System.Drawing.Size(42, 19)
         Me.Label4.TabIndex = 3
-        Me.Label4.Text = "Ghi chú"
+        Me.Label4.Text = "Note"
         '
         'Label5
         '
@@ -88,9 +88,9 @@ Partial Class FormRoomManagement
         Me.Label5.ForeColor = System.Drawing.Color.OrangeRed
         Me.Label5.Location = New System.Drawing.Point(406, 73)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(64, 19)
+        Me.Label5.Size = New System.Drawing.Size(43, 19)
         Me.Label5.TabIndex = 4
-        Me.Label5.Text = "Đơn giá"
+        Me.Label5.Text = "Price"
         '
         'GroupBox1
         '
@@ -129,7 +129,7 @@ Partial Class FormRoomManagement
         Me.btnDeleteRoom.Name = "btnDeleteRoom"
         Me.btnDeleteRoom.Size = New System.Drawing.Size(120, 30)
         Me.btnDeleteRoom.TabIndex = 2
-        Me.btnDeleteRoom.Text = "Xóa"
+        Me.btnDeleteRoom.Text = "Delete"
         Me.btnDeleteRoom.UseVisualStyleBackColor = False
         '
         'btnEditRoom
@@ -144,7 +144,7 @@ Partial Class FormRoomManagement
         Me.btnEditRoom.Name = "btnEditRoom"
         Me.btnEditRoom.Size = New System.Drawing.Size(120, 30)
         Me.btnEditRoom.TabIndex = 1
-        Me.btnEditRoom.Text = "Sửa"
+        Me.btnEditRoom.Text = "Edit"
         Me.btnEditRoom.UseVisualStyleBackColor = False
         '
         'btnAddRoom
@@ -158,7 +158,7 @@ Partial Class FormRoomManagement
         Me.btnAddRoom.Name = "btnAddRoom"
         Me.btnAddRoom.Size = New System.Drawing.Size(120, 30)
         Me.btnAddRoom.TabIndex = 0
-        Me.btnAddRoom.Text = "Thêm"
+        Me.btnAddRoom.Text = "Add"
         Me.btnAddRoom.UseVisualStyleBackColor = False
         '
         'cbbLoaiPhong
@@ -179,14 +179,14 @@ Partial Class FormRoomManagement
         '
         'txtGhiChu
         '
-        Me.txtGhiChu.Location = New System.Drawing.Point(122, 116)
+        Me.txtGhiChu.Location = New System.Drawing.Point(133, 117)
         Me.txtGhiChu.Name = "txtGhiChu"
         Me.txtGhiChu.Size = New System.Drawing.Size(593, 27)
         Me.txtGhiChu.TabIndex = 8
         '
         'txtTenPhong
         '
-        Me.txtTenPhong.Location = New System.Drawing.Point(122, 70)
+        Me.txtTenPhong.Location = New System.Drawing.Point(133, 70)
         Me.txtTenPhong.Name = "txtTenPhong"
         Me.txtTenPhong.Size = New System.Drawing.Size(209, 27)
         Me.txtTenPhong.TabIndex = 9
@@ -213,7 +213,7 @@ Partial Class FormRoomManagement
         'txtMaPhong
         '
         Me.txtMaPhong.Enabled = False
-        Me.txtMaPhong.Location = New System.Drawing.Point(122, 24)
+        Me.txtMaPhong.Location = New System.Drawing.Point(133, 21)
         Me.txtMaPhong.Name = "txtMaPhong"
         Me.txtMaPhong.Size = New System.Drawing.Size(152, 27)
         Me.txtMaPhong.TabIndex = 6
@@ -225,9 +225,9 @@ Partial Class FormRoomManagement
         Me.Label6.ForeColor = System.Drawing.Color.DodgerBlue
         Me.Label6.Location = New System.Drawing.Point(18, 8)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(147, 19)
+        Me.Label6.Size = New System.Drawing.Size(98, 19)
         Me.Label6.TabIndex = 12
-        Me.Label6.Text = "Danh sách phòng"
+        Me.Label6.Text = "List Rooms"
         '
         'FormRoomManagement
         '

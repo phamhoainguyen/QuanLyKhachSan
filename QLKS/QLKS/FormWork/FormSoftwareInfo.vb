@@ -16,4 +16,8 @@
         LinkLabel3.Links.Add(0, LinkLabel3.Text.Length, "http://jsfiddle.net/vh3bcg8m/8/embedded/result/")
 
     End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
 End Class

@@ -50,9 +50,9 @@ Partial Class FormRoomTypeManagement
         Me.Label1.Location = New System.Drawing.Point(162, 31)
         Me.Label1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(113, 19)
+        Me.Label1.Size = New System.Drawing.Size(108, 19)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Mã Loại Phòng"
+        Me.Label1.Text = "Room type ID"
         '
         'Label2
         '
@@ -62,9 +62,9 @@ Partial Class FormRoomTypeManagement
         Me.Label2.Location = New System.Drawing.Point(162, 65)
         Me.Label2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(120, 19)
+        Me.Label2.Size = New System.Drawing.Size(130, 19)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Tên Loại Phòng"
+        Me.Label2.Text = "Room type name"
         '
         'Label3
         '
@@ -74,9 +74,9 @@ Partial Class FormRoomTypeManagement
         Me.Label3.Location = New System.Drawing.Point(162, 101)
         Me.Label3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(64, 19)
+        Me.Label3.Size = New System.Drawing.Size(43, 19)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Đơn giá"
+        Me.Label3.Text = "Price"
         '
         'txtRoomTypeID
         '
@@ -135,9 +135,9 @@ Partial Class FormRoomTypeManagement
         Me.Label6.ForeColor = System.Drawing.Color.DodgerBlue
         Me.Label6.Location = New System.Drawing.Point(8, -3)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(182, 19)
+        Me.Label6.Size = New System.Drawing.Size(143, 19)
         Me.Label6.TabIndex = 13
-        Me.Label6.Text = "Danh sách loại phòng"
+        Me.Label6.Text = "List Rooms Type"
         '
         'btnDelete
         '
@@ -151,7 +151,7 @@ Partial Class FormRoomTypeManagement
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(120, 30)
         Me.btnDelete.TabIndex = 8
-        Me.btnDelete.Text = "Xóa"
+        Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = False
         '
         'PictureBox1
@@ -176,7 +176,7 @@ Partial Class FormRoomTypeManagement
         Me.btnEdit.Name = "btnEdit"
         Me.btnEdit.Size = New System.Drawing.Size(120, 30)
         Me.btnEdit.TabIndex = 7
-        Me.btnEdit.Text = "Sửa"
+        Me.btnEdit.Text = "Edit"
         Me.btnEdit.UseVisualStyleBackColor = False
         '
         'btnAdd
@@ -190,7 +190,7 @@ Partial Class FormRoomTypeManagement
         Me.btnAdd.Name = "btnAdd"
         Me.btnAdd.Size = New System.Drawing.Size(120, 30)
         Me.btnAdd.TabIndex = 6
-        Me.btnAdd.Text = "Thêm"
+        Me.btnAdd.Text = "Add"
         Me.btnAdd.UseVisualStyleBackColor = False
         '
         'dgvListRoomType
@@ -217,7 +217,7 @@ Partial Class FormRoomTypeManagement
         Me.GroupBox2.Size = New System.Drawing.Size(769, 304)
         Me.GroupBox2.TabIndex = 6
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Danh sách loại phòng"
+        Me.GroupBox2.Text = "List Rooms type"
         '
         'FormRoomTypeManagement
         '
